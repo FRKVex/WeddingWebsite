@@ -1,0 +1,62 @@
+.rep{
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  font-family: 'Great Vibes', cursive;
+  color: black;
+  padding: 100px 0px;
+  margin: 5px 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.header{
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 70px;
+}
+
+.body {
+    background-image: url("ss.jpg");
+    background-repeat: no-repeat;
+    background-size: 50px;
+   
+}
+
+.name{
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  width: 100%;
+  color: black;
+  padding: 0px;
+  margin: 0px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sub{
+    background-color: transparent;
+    border-radius: 2px;
+    padding: 10px;
+    margin:  20px;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 800;
+    border: 1px transparent;
+    cursor: pointer; 
+    -webkit-transition: all 0.5s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+          transition: all 0.5s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+}
+.sub:hover{
+     
+    background-color: transparent;
+    color: black;
+    border: 1px solid white;
+    -webkit-transition: all 0.5s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+          transition: all 0.5s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+}
+}
