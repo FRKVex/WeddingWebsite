@@ -1,0 +1,50 @@
+.header{
+ 	height: 150px;
+    width: 100%;
+    background-color: #FFB7A2;
+}
+
+.logo{
+    padding:0px 60px 0px 60px;
+    margin:30px;
+    float:left;
+    font-size:50px;
+}
+
+.navigation-container{
+    float: right;
+    margin-top: 60px;
+    margin-right: 60px;
+}
+
+.tabs{
+    list-style: none;
+}
+
+.tabs li{
+    float: left;
+}
+
+.tabs li a{
+    padding: 10px 20px;
+    font-family: Dancing Script;
+    font-size: 30px;
+    background-color: #FFB7A2;
+    border: 10px black;
+    color: black;
+    cursor: pointer;
+}
+
+.tabs li a:hover{
+    background-color: #F07FAC;
+    color: red !important;
+}
+
+.background{
+    background: url("Pic/Coup.jpg") fixed no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    position: relative;
+}
