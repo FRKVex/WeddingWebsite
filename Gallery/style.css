@@ -1,0 +1,56 @@
+html,body{
+    margin: 0;
+}
+body{
+    background-image: url();
+}
+.main-content{
+    height: 1000px;
+    width: 100%;
+}
+.background1{
+    background: url("Pic/pader.jpg") fixed 0 0 no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.title{
+	font-size: 80px;
+	text-align: center;
+	font-family: "Charmonman";
+	padding-top: 50px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.background2{    
+    background: url("Pic/flowerr.jpg") fixed 0 0 no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+.video-title{
+	font-size: 50px;
+	text-align: left;
+	font-family: "Dancing Script";
+	margin-left: 30px;
+	color: FF4640;
+	padding-top: 50px;
+}
+.container iframe{
+	margin: 0 auto;
+}
